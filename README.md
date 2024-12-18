@@ -1,0 +1,1 @@
+This repository demonstrates an example of an unclosed file bug in Python and its solution. The `bug.py` file contains the buggy code, and `bugSolution.py` provides the corrected version.  Unclosed files can lead to resource exhaustion and errors if not handled properly. It's important to always close files after use, using `f.close()`, a `with` statement, or a context manager.
